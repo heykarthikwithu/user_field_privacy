@@ -1,0 +1,7 @@
+name: 'User Field Privacy'
+description: 'Provides options for users to override visibility of their own fields.'
+dependencies:
+  - user
+  - field
+core: 8.x
+type: module

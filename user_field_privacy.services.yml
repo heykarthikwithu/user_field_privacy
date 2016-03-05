@@ -1,0 +1,6 @@
+services:
+  exit_subscriber:
+    class: Drupal\user_field_privacy\EventSubscriber\ExitSubscriber
+    tags:
+      -
+        name: event_subscriber
